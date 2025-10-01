@@ -1,0 +1,14 @@
+{
+  "name": "ar.com.tecnosoul.audioplayer",
+  "version": "0.3.0",
+  "description": "A Quasar Project",
+  "author": "matias-tecnosoul <matias@tecnosoul.com.ar>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@mediagrid/capacitor-native-audio": "^1.1.0"
+  }
+}
