@@ -9,7 +9,7 @@ yarn
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting,sa etc.)
+### Start the app in development mode (hot-code reloading, error reporting,a etc.)
 ```bash
 quasar dev
 ```
