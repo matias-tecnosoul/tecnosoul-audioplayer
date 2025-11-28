@@ -1,0 +1,42 @@
+{
+  "name": "ar.com.tecnosoul.audioplayer",
+  "version": "0.0.1",
+  "description": "Multi live audio streams player app",
+  "productName": "TecnoSoul Live Audio Player",
+  "author": "matias-tecnosoul <matias@tecnosoul.com.ar>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@mediagrid/capacitor-native-audio": "^2.2.0",
+    "@quasar/extras": "^1.16.4",
+    "pinia": "^2.2.2",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@quasar/app-vite": "^1.9.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "typescript": "^5.9.3",
+    "vite-plugin-checker": "^0.7.1"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
