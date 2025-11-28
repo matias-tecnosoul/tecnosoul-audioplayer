@@ -1,41 +1,16 @@
-# TecnoSoul Live Audio Player (ar.com.tecnosoul.audioplayer)
+⚠️ Repository Moved
+This repository has been moved to the TecnoSoul organization.
 
-A Quasar Project
+New Location
+👉 https://github.com/TecnoSoul/RadioStack
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+What happened?
+This project is now maintained under the TecnoSoul organization account to better reflect its professional nature and consolidate all company projects in one place.
 
-### Start the app ian development mode (hot-code reloading, ersror reporting,sa etcs)
-```bash
-quasar dev
-```
+What should you do?
+Update your git remotes if you have a local clone:
 
+git remote set-url origin https://github.com/TecnoSoul/LiveAudioPlayer.git
+Update any bookmarks to point to the new repository
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+Follow future development at the new location
